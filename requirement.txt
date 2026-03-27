@@ -1,5 +1,5 @@
-torch
-torchvision
-numpy
-matplotlib
-norse
+torch>=2.0
+torchvision>=0.15
+norse>=0.0.7
+numpy>=1.23
+matplotlib>=3.7
