@@ -4,7 +4,7 @@ This project implements a Spiking Neural Network (SNN) for handwritten digit cla
 
 ---
 
-## 📌 Overview
+## Overview
 
 Unlike traditional neural networks, SNNs operate using discrete spike events over time. In this implementation:
 
@@ -16,7 +16,7 @@ This setup allows the model to learn from temporal spike activity rather than co
 
 ---
 
-## 🧠 Method
+## Method
 
 ### 🔹 Spike Encoding (Rate Coding)
 
@@ -49,7 +49,7 @@ The final prediction is based on accumulated spike activity over time.
 
 ---
 
-## 📊 Results
+## Results
 
 * **Test Accuracy:** ~96.9%
 * The model achieves strong performance for a simple spiking architecture
@@ -57,7 +57,7 @@ The final prediction is based on accumulated spike activity over time.
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Rate coding introduces stochasticity and may limit efficiency
 * The architecture is shallow and not optimized for large-scale tasks
@@ -65,7 +65,7 @@ The final prediction is based on accumulated spike activity over time.
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 
 * SNNs can perform classification tasks using spike-based representations
 * Temporal spike integration provides a viable mechanism for decision making
@@ -73,7 +73,7 @@ The final prediction is based on accumulated spike activity over time.
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Python 3.8+
 * PyTorch
@@ -90,7 +90,7 @@ pip install torch torchvision norse matplotlib numpy
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 
@@ -104,7 +104,7 @@ The model will train on MNIST and report classification accuracy.
 
 ---
 
-## 📂 Notebook
+## Notebook
 
 * `snn_mnist_classification.ipynb`
 
