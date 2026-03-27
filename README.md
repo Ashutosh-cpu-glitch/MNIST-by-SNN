@@ -85,7 +85,7 @@ The final prediction is based on accumulated spike activity over time.
 Install dependencies:
 
 ```
-pip install torch torchvision norse matplotlib numpy
+pip install -r requirements.txt
 ```
 
 ---
